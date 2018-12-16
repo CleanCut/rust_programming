@@ -1,8 +1,6 @@
 # How To Learn Rust
 
-Perhaps more important than a crash course tutorial in Rust is learning _how to learn Rust_.  You can sit back and
-listen to the tutorial and maybe you will learn a little something.  Learning how to learn Rust will put you on a path
-that will lead to eventual mastery.  It is up to you!
+Perhaps more important than a crash course tutorial in Rust is **learning how to learn Rust**.  Learning how to learn Rust will put you on a path that will lead to mastering the subject.
 
 ### IDE / Editor
 
@@ -11,6 +9,7 @@ it is already getting really good.  Much more than just syntax highlighting, an 
 the compiler and show you type hints, compiler check errors, and all sorts of good stuff inline. 
 
 - Google: Rust _(your favorite IDE)_
+  - Need a suggestion? IntelliJ, Visual Studio Code, and Atom are all great choices (and there are many more...)
   - Install Rust support
   - Install TOML support, which is often separate from Rust support ([TOML](https://github.com/toml-lang/toml)
     is the config file format that Rust uses)
