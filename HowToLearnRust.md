@@ -91,9 +91,9 @@ found these books _especially_ useful and high quality:
   [dependencies](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html#using-a-crate-to-get-more-functionality)
 - [Variables, Mutability, and Shadowing](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
 - [Functions](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html) - fn
-- [Modules](https://doc.rust-lang.org/book/ch07-01-mod-and-the-filesystem.html)
-  and [pub](https://doc.rust-lang.org/book/ch07-02-controlling-visibility-with-pub.html)
-  and [use](https://doc.rust-lang.org/book/ch07-03-importing-names-with-use.html)
+- [Modules](https://doc.rust-lang.org/book/ch07-02-modules-and-use-to-control-scope-and-privacy.html)
+  and [pub](https://doc.rust-lang.org/book/ch07-02-modules-and-use-to-control-scope-and-privacy.html#modules-as-the-privacy-boundary)
+  and [use](https://doc.rust-lang.org/book/ch07-02-modules-and-use-to-control-scope-and-privacy.html#the-use-keyword-to-bring-paths-into-a-scope)
 - [Scalar Types](https://doc.rust-lang.org/book/ch03-02-data-types.html#scalar-types) - 
   Integers, Floating-point, Boolean, Characters.
 - [Compound Types](https://doc.rust-lang.org/book/ch03-02-data-types.html#compound-types) - 
