@@ -54,5 +54,5 @@ Now you are ready for the training!
 
 - Live training by the instructor (Nathan Stocks)
 - This Repository
-- [How To Learn Rust](https://github.com/CleanCut/rusty_a_crash_course/blob/master/HowToLearnRust.md)
+- [How To Learn Rust](https://github.com/CleanCut/rust_a_crash_course/blob/master/HowToLearnRust.md)
 - [The Rust Standard Library](https://doc.rust-lang.org/std/)
