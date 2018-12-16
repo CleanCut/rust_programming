@@ -84,27 +84,25 @@ found these books _especially_ useful and high quality:
 - [Semantic Versioning](https://semver.org/) and [Cargo's Version Field Rules](https://doc.rust-lang.org/cargo/reference/manifest.html#the-version-field)
 - [String Formatting](https://doc.rust-lang.org/std/fmt/index.html) - `print!()`, `println!()`, `format!()`, etc. and
   how to deal with the format string.
-- Non-Lexical Lifetimes (NLL) - [What it is](http://smallcultfollowing.com/babysteps/blog/2016/04/27/non-lexical-lifetimes-introduction/)
-  and [how close it is to becoming real](https://github.com/rust-lang/rust/issues/43234)
-- [Firefox has over a million lines of Rust Code](https://4e6.github.io/firefox-lang-stats/)
+- [Firefox has over 1.7 million lines of Rust Code](https://4e6.github.io/firefox-lang-stats/)
   
 **Fundamental Learning References (Things the Tutorial Covered)**
-- [Cargo](https://doc.rust-lang.org/book/second-edition/ch01-03-hello-cargo.html) and
-  [dependencies](https://doc.rust-lang.org/book/second-edition/ch02-00-guessing-game-tutorial.html#using-a-crate-to-get-more-functionality)
-- [Variables, Mutability, and Shadowing](https://doc.rust-lang.org/book/second-edition/ch03-01-variables-and-mutability.html)
-- [Functions](https://doc.rust-lang.org/book/second-edition/ch03-03-how-functions-work.html) - fn
-- [Modules](https://doc.rust-lang.org/book/second-edition/ch07-01-mod-and-the-filesystem.html)
-  and [pub](https://doc.rust-lang.org/book/second-edition/ch07-02-controlling-visibility-with-pub.html)
-  and [use](https://doc.rust-lang.org/book/second-edition/ch07-03-importing-names-with-use.html)
-- [Scalar Types](https://doc.rust-lang.org/book/second-edition/ch03-02-data-types.html#scalar-types) - 
+- [Cargo](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html) and
+  [dependencies](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html#using-a-crate-to-get-more-functionality)
+- [Variables, Mutability, and Shadowing](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
+- [Functions](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html) - fn
+- [Modules](https://doc.rust-lang.org/book/ch07-01-mod-and-the-filesystem.html)
+  and [pub](https://doc.rust-lang.org/book/ch07-02-controlling-visibility-with-pub.html)
+  and [use](https://doc.rust-lang.org/book/ch07-03-importing-names-with-use.html)
+- [Scalar Types](https://doc.rust-lang.org/book/ch03-02-data-types.html#scalar-types) - 
   Integers, Floating-point, Boolean, Characters.
-- [Compound Types](https://doc.rust-lang.org/book/second-edition/ch03-02-data-types.html#compound-types) - 
+- [Compound Types](https://doc.rust-lang.org/book/ch03-02-data-types.html#compound-types) - 
   Tuples, Arrays.
-- [Control Flow](https://doc.rust-lang.org/book/second-edition/ch03-05-control-flow.html) - if, while, for
-- [Threads](https://doc.rust-lang.org/book/second-edition/ch16-01-threads.html)
-  and [channels](https://doc.rust-lang.org/book/second-edition/ch16-02-message-passing.html)
-- [Ownership and Scope](https://doc.rust-lang.org/book/second-edition/ch04-01-what-is-ownership.html)
-- [References & Borrowing](https://doc.rust-lang.org/book/second-edition/ch04-02-references-and-borrowing.html)
-- Common Collections: [Vectors](https://doc.rust-lang.org/book/second-edition/ch08-01-vectors.html),
-  [Strings](https://doc.rust-lang.org/book/second-edition/ch08-02-strings.html),
-  and [Hash Maps](https://doc.rust-lang.org/book/second-edition/ch08-03-hash-maps.html)
+- [Control Flow](https://doc.rust-lang.org/book/ch03-05-control-flow.html) - if, while, for
+- [Threads](https://doc.rust-lang.org/book/ch16-01-threads.html)
+  and [channels](https://doc.rust-lang.org/book/ch16-02-message-passing.html)
+- [Ownership and Scope](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html)
+- [References & Borrowing](https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html)
+- Common Collections: [Vectors](https://doc.rust-lang.org/book/ch08-01-vectors.html),
+  [Strings](https://doc.rust-lang.org/book/ch08-02-strings.html),
+  and [Hash Maps](https://doc.rust-lang.org/book/ch08-03-hash-maps.html)
