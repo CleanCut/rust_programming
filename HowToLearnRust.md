@@ -23,7 +23,7 @@ You are always going to have questions.  Know how to find the answers.
 
 - If it is about something the standard library, then Google: `rust std (thing you want to find)`
   - For example, can't quite remember what that method on `Vec` was? Google `rust std Vec`
-- There is a very welcoming [Rust Community](https://www.rust-lang.org/en-US/community.html) out there that you can
+- There is a very welcoming [Rust Community](https://www.rust-lang.org/community) out there that you can
   communicate with.  See the link above for:
   - Forums
   - IRC channels
