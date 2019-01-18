@@ -68,7 +68,7 @@ Long-format reading is really interesting and informative. You will learn some t
 book that you would never have encountered during years of reading random bits of the standard library reference.  I 
 found these books _especially_ useful and high quality:
 
-**Educational**
+**Books**
 
 - [The Rust Programming Language](https://doc.rust-lang.org/book/), aka "The Book" - the official free online book 
   about the language, though you can [purchase a physical copy](https://amzn.to/2Li5ymI) if you prefer.
