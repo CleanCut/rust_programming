@@ -1,4 +1,4 @@
-# Rust: A Crash Course
+# Rust Programming: A Crash Course
 
 Just watching the training will be entertaining and informative, but you will truly learn a lot more if you actually
 dig in and do some coding!  This repository is for you hands-on-learners who are ready to roll.
