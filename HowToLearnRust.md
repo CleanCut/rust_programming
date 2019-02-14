@@ -79,14 +79,15 @@ found these books _especially_ useful and high quality:
 
 - [Entering the Quantum Era—How Firefox got fast again and where it’s going to get faster](https://hacks.mozilla.org/2017/11/entering-the-quantum-era-how-firefox-got-fast-again-and-where-its-going-to-get-faster/)
 
-**Random References (Things the Tutorial Didn't Specifically Cover)**
+**Things we mentioned but didn't cover in depth**
 - [TOML Format](https://github.com/toml-lang/toml) - the config file format Rust uses
 - [Semantic Versioning](https://semver.org/) and [Cargo's Version Field Rules](https://doc.rust-lang.org/cargo/reference/manifest.html#the-version-field)
+- [The Edition Guide](https://rust-lang-nursery.github.io/edition-guide/introduction.html) - Differences between Rust 2015 and Rust 2018
 - [String Formatting](https://doc.rust-lang.org/std/fmt/index.html) - `print!()`, `println!()`, `format!()`, etc. and
   how to deal with the format string.
 - [Firefox has over 1.7 million lines of Rust Code](https://4e6.github.io/firefox-lang-stats/)
   
-**Fundamental Learning References (Things the Tutorial Covered)**
+**More information about things we learned**
 - [Cargo](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html) and
   [dependencies](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html#using-a-crate-to-get-more-functionality)
 - [Variables, Mutability, and Shadowing](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
