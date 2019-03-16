@@ -56,3 +56,7 @@ Now you are ready for the training!
 - This Repository
 - [How To Learn Rust](https://github.com/CleanCut/rust_a_crash_course/blob/master/HowToLearnRust.md)
 - [The Rust Standard Library](https://doc.rust-lang.org/std/)
+
+### Exercises
+
+- [Exercise A - Variables](https://github.com/CleanCut/rust_programming/tree/master/exercise/a-variables)
