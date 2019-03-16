@@ -8,10 +8,10 @@ Big, bloated IDE's can actually be really helpful in learning Rust.  IDE support
 it is already getting really good.  Much more than just syntax highlighting, an IDE like IntelliJ will integrate with
 the compiler and show you type hints, compiler check errors, and all sorts of good stuff inline. 
 
-- Google: Rust _(your favorite IDE)_
+- Google the terms: `rust (name of the IDE or Editor you use)`
   - Need a suggestion? IntelliJ, Visual Studio Code, and Atom are all great choices (and there are many more...)
-  - Install Rust support
-  - Install TOML support, which is often separate from Rust support ([TOML](https://github.com/toml-lang/toml)
+  - Find the correct way to install Rust support for your IDE or Editor (it's often a plugin)
+  - (Optional) Install TOML support, which is often separate from Rust support ([TOML](https://github.com/toml-lang/toml)
     is the config file format that Rust uses)
   - ...wait...
   - Be amazed at all the helpful auto-complete, etc. that turns on.  Yay!
