@@ -12,7 +12,7 @@ learning Rust.  Please [contact me](mailto:nathan.stocks@gmail.com) ASAP if you 
 
 ## Install Rust
 
-Rust 1.31.0 or newer is required for this course!
+Rust 1.31.0 or newer is required for this course!  The latest stable version is recommended (1.33.0 at the time this was written).
 
 - Go to [rust-lang.org](https://rust-lang.org) and click on the `Get Started`
    button and follow the instructions to install Rust for your operating system.
@@ -23,10 +23,10 @@ version older than 1.31.0, then run `rustup update` to install a newer version.
 
 ```shell
 $ rustc --version
-rustc 1.31.0 (abe02cefd 2018-12-04)
+rustc 1.33.0 (2aa4c46cf 2019-02-28)
 
 $ cargo --version
-rustc 1.31.0 (abe02cefd 2018-12-04)
+cargo 1.33.0 (f099fe94b 2019-02-12)
 ```
 
 - Clone or download this repository to the computer you will be using during the live training.
