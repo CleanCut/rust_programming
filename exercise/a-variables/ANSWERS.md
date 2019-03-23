@@ -4,8 +4,6 @@
 - `cargo new variables`
 
 ```rust
-// main.rs
-
 fn main() {
     let missiles = 8;
     let loaded = 2;
@@ -51,7 +49,7 @@ fn main() {
 }
 ```
 
-- [ ] Can you figure out the correct type annotation when you assign them all in one line? Hint: it will use the same sort of pattern.
+- Can you figure out the correct type annotation when you assign them all in one line? Hint: it will use the same sort of pattern.
 
 ```rust
 fn main() {
@@ -72,8 +70,10 @@ It gives this warning:
 warning: variable does not need to be mutable
 ```
 
+- Add another variable to your program *but don't use it*.
+  - What does cargo say when you run your program?  
 
-It gives this warning:
+It gives this warning if my unused variable is named `jet`:
 
 ```
 warning: unused variable: `jet`
