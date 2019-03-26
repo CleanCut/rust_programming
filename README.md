@@ -60,3 +60,10 @@ Now you are ready for the training!
 ### Exercises
 
 - [Exercise A - Variables](https://github.com/CleanCut/rust_programming/tree/master/exercise/a-variables)
+- [Exercise B - Functions](https://github.com/CleanCut/rust_programming/tree/master/exercise/b-functions)
+- [Exercise C - Simple Types](https://github.com/CleanCut/rust_programming/tree/master/exercise/c-simple-types)
+- [Exercise D - Control Flow & Strings](https://github.com/CleanCut/rust_programming/tree/master/exercise/d-control-flow-strings)
+- [Exercise E - Ownership & References](https://github.com/CleanCut/rust_programming/tree/master/exercise/e-ownership-references)
+- [Exercise F - Structs & Traits](https://github.com/CleanCut/rust_programming/tree/master/exercise/f-structs-traits)
+- [Exercise G - Collections & Enums](https://github.com/CleanCut/rust_programming/tree/master/exercise/g-collections-enums)
+- [Exercise Z - Final Project](https://github.com/CleanCut/rust_programming/tree/master/exercise/z-final-project)
