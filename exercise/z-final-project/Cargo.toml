@@ -5,3 +5,5 @@ authors = ["Nathan Stocks <cleancut@github.com>"]
 edition = "2018"
 
 [dependencies]
+image = "0.21.0"
+num-complex = "0.2.1"
