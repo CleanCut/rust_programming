@@ -1,7 +1,7 @@
 // FINAL PROJECT
 //
-// Create an image processing application.  What it does and how it does it is
-// up to you.  Look for comments labeled **OPTION** below.
+// Create an image processing application.  Exactly what it does and how it does
+// it is up to you.  Look for comments labeled **OPTION** below.
 //
 // You should be able to complete at least 2 or 3 **OPTION** sections during the
 // time provided for this course.  Feel free to keep going and complete them
