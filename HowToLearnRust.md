@@ -85,7 +85,7 @@ found these books _especially_ useful and high quality:
 - [The Edition Guide](https://rust-lang-nursery.github.io/edition-guide/introduction.html) - Differences between Rust 2015 and Rust 2018
 - [String Formatting](https://doc.rust-lang.org/std/fmt/index.html) - `print!()`, `println!()`, `format!()`, etc. and
   how to deal with the format string.
-- [Firefox has over 1.7 million lines of Rust Code](https://4e6.github.io/firefox-lang-stats/)
+- [Firefox has over 1.8 million lines of Rust Code](https://4e6.github.io/firefox-lang-stats/)
   
 **More information about things we learned**
 - [Cargo](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html) and
