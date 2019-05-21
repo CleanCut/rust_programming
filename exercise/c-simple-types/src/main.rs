@@ -5,14 +5,14 @@ fn main() {
     // 1. Use print_difference() to show the difference between the two numbers
     // in coords.  Use tuple indexing. Hint: It's NOT square brackets.
     //
-    // print_difference(...)
+    // print_difference("{}", ...)
 
 
     // 2. We want to use print_array() to print coords...but coords isn't an array!
     //    Create an array of type [f32; 2] and initialize it to contain the
-    //    information from coords.
+    //    information from coords.  Uncomment the print_array line and run the code.
     //
-    // let coords_arr...
+    // let coords_arr...               // create the array here
     // print_array(coords_arr);
 
 
@@ -29,10 +29,16 @@ fn main() {
     //
     // on_off(mess.2
 
-
-    // Challenge: This works just fine.  Uncomment it and then follow the
-    // instructions above the print_distance() function definition.
+    // 5.  What a mess -- functions in a binary! Let's get organized!
     //
+    //   - Make a library file
+    //   - Move all the functions (except main) into the library
+    //   - Bring all the functions into scope using use statements
+
+    // Challenge: Uncomment the line below, run the code, and examine the
+    // output. Then go refactor the print_distance() function according to the
+    // instructions in the comments inside that function.
+
     // print_distance(coords);
 }
 
@@ -56,13 +62,13 @@ fn on_off(val: bool) {
     }
 }
 
-// Using z.0 and z.1 is not nearly as nice as using x and y.  Lucky for
-// us, Rust supports destructuring function arguments.  Try replacing "z" in the
-// parameter list with "(x, y)" and adjust the calculation in the function body
-// accordingly.
 fn print_distance(z: (f32, f32)) {
+    // Using z.0 and z.1 is not nearly as nice as using x and y.  Lucky for
+    // us, Rust supports destructuring function arguments.  Try replacing "z" in
+    // the parameter list above with "(x, y)" and then adjust the a function
+    // body to use x and y.
     println!(
         "Distance to the origin is {}",
-        (z.0.powf(2.0) + z.1.powf(2.0)).sqrt());
+        ( z.0.powf(2.0) + z.1.powf(2.0) ).sqrt());
 }
 
