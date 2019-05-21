@@ -2,7 +2,7 @@
 //
 // Define a single required method, "fn bite(self: &mut Self)".  We will call
 // this method when we want to bite something.  Once this is defined, you should
-// be able to run this crate without errors.
+// be able to run the code without any errors.
 //
 //  trait Bite...
 
@@ -34,7 +34,7 @@ fn main() {
     //grapes.bite();
     //println!("Eat a grape: {:?}", grapes);
 
-    // Challenge 1: Uncomment the code below. Create a generic bunny_nibbles()
+    // Challenge: Uncomment the code below. Create a generic bunny_nibbles()
     // function that:
     // - takes a mutable reference to any type that implements Bite
     // - calls .bite() several times
