@@ -1,3 +1,4 @@
+// Silence some warnings so they don't distract from the exercise.
 #![allow(dead_code, unused_mut, unused_variables)]
 
 
@@ -24,18 +25,19 @@ fn sum() {
 fn double() {
     let mut count = 0;
     let mut x = 1;
-    // Use a "while loop" to count how many times you can double the value of x
-    // (multiply x by 2) before it is larger than 500.  Hint: count should be 9
+    // 3. Use a "while loop" to count how many times you can double the value of
+    // x (multiply x by 2) before it is larger than 500.  Hint: (it is 9 times)
 
 
     println!("You can double x {} times before it is larger than 500", count);
 }
 
 fn count(arg: String) {
-    // Use an unconditional loop to print arg 8 times, and then break.
+    // 4. Use an unconditional loop to print arg 8 times, and then break.  You
+    // will need to count your loops, somehow.
     //
-    // print!("{} ", arg); // Do this 8 times, and then break
+    // print!("{} ", arg); // Execute this line 8 times, and then break.
 
 
-    println!(); // This will output just a newline
+    println!(); // This will output just a newline at the end for cleanliness.
 }
