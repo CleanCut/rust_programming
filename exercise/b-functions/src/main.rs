@@ -10,6 +10,9 @@ fn main() {
     }
     println!("Area is {}", area);
 
+    // 2. The area is incorrect! Go fix the area_of() function below, then run
+    //    the code again and make sure it worked.
+
     // 3. Uncomment the line below.  Make it work by creating a "volume"
     //    function that multiplies three arguments together and returns the
     //    result.
@@ -18,8 +21,9 @@ fn main() {
 }
 
 fn area_of(x: i32, y: i32) -> i32 {
-    // 2. Fix this function to compute the area given dimensions x and y
+    // Fix this function to correctly compute the area of a rectangle given
+    // dimensions x and y.
     //
     // Bonus: Idiomatic rust doesn't use "return" at the end of a block, fix it!
-    return 123;
+    return 0;
 }
