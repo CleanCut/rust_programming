@@ -6,8 +6,8 @@
 ```rust
 fn main() {
     let missiles = 8;
-    let loaded = 2;
-    println!("Firing {} of my {} missiles...", loaded, missiles);
+    let ready = 2;
+    println!("Firing {} of my {} missiles...", ready, missiles);
 }
 
 ```
@@ -15,11 +15,14 @@ fn main() {
 ### Part 2
 
 ```rust
+const STARTING_MISSILES: i32 = 8;
+const READY_AMOUNT: i32 = 2;
+
 fn main() {
-    let mut missiles = 8;
-    let loaded = 2;
-    println!("Firing {} of my {} missiles...", loaded, missiles);
-    missiles = missiles - loaded;
+    let mut missiles = STARTING_MISSILES;
+    let ready = READY_AMOUNT;
+    println!("Firing {} of my {} missiles...", ready, missiles);
+    missiles = missiles - ready;
     println!("{} missiles left", missiles);
 }
 ```
@@ -29,11 +32,14 @@ fn main() {
 - Explicitly annotate the variables with the type `i32`
 
 ```rust
+const STARTING_MISSILES: i32 = 8;
+const READY_AMOUNT: i32 = 2;
+
 fn main() {
-    let mut missiles: i32 = 8;
-    let loaded: i32 = 2;
-    println!("Firing {} of my {} missiles...", loaded, missiles);
-    missiles = missiles - loaded;
+    let mut missiles: i32 = STARTING_MISSILES;
+    let ready: i32 = READY_AMOUNT;
+    println!("Firing {} of my {} missiles...", ready, missiles);
+    missiles = missiles - ready;
     println!("{} missiles left", missiles);
 }
 ```
@@ -41,24 +47,31 @@ fn main() {
 - Try binding the variables all at once on one line using a pattern (parenthesis and commas) -- can you figure out where "mut" goes?
 
 ```rust
+const STARTING_MISSILES: i32 = 8;
+const READY_AMOUNT: i32 = 2;
+
 fn main() {
-    let (mut missiles, loaded) = (8, 2);
-    println!("Firing {} of my {} missiles...", loaded, missiles);
-    missiles = missiles - loaded;
+    let (mut missiles, ready) = (STARTING_MISSILES, READY_AMOUNT);
+    println!("Firing {} of my {} missiles...", ready, missiles);
+    missiles = missiles - ready;
     println!("{} missiles left", missiles);
 }
+
 ```
 
-- Can you figure out the correct type annotation when you assign them all in one line? Hint: it will use the same sort of pattern.
+- Can you figure out the correct type annotation when you assign them all in one line?
+  Hint: it will use the same sort of pattern as the variables and values.
 
 ```rust
+const STARTING_MISSILES: i32 = 8;
+const READY_AMOUNT: i32 = 2;
+
 fn main() {
-    let (mut missiles, loaded): (i32, i32) = (8, 2);
-    println!("Firing {} of my {} missiles...", loaded, missiles);
-    missiles = missiles - loaded;
+    let (mut missiles, ready): (i32, i32) = (STARTING_MISSILES, READY_AMOUNT);
+    println!("Firing {} of my {} missiles...", ready, missiles);
+    missiles = missiles - ready;
     println!("{} missiles left", missiles);
 }
-
 ```
 
 - Instead of changing missiles, just print `missiles - loaded` in the second `println(...)`
