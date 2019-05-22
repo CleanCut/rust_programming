@@ -1,4 +1,4 @@
-// Someone shot some arrows at a target.  We need to classify the shots.
+// Someone is shooting arrows at a target.  We need to classify the shots.
 //
 // 1. Create an enum called "Shot" with variants:
 // - Bullseye
@@ -6,19 +6,20 @@
 // - Miss
 
 
-// We are going to add a method to this enum!
 impl Shot {
+    // Here is a method for the Shot enum you just defined.
     fn points(self) -> i32 {
         // 2. Implement this method to convert a Shot into points
         // - 5 points for Bullseye
         // - 2 points for Hit(x) where x < 3.0
         // - 1 point for Hit(x) where x >= 3.0
         // - 0 points for Miss
-
     }
 }
 
 fn main() {
+    // Simulate shooting a bunch of arrows and gathering their coordinates on
+    // the target.
     let arrow_coords: Vec<Coord> = get_arrow_coords(5);
     let mut shots: Vec<Shot> = Vec::new();
 
