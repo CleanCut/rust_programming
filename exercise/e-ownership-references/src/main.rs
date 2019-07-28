@@ -1,7 +1,8 @@
+#![allow(unused_mut)]
 fn main() {
     // This fancy stuff either gets the first argument as a String, or prints
-    // usage and exits.
-    let mut arg = std::env::args()
+    // usage and exits if an argument was not supplied to the program.
+    let mut arg: String = std::env::args()
         .collect::<Vec<String>>()
         .iter()
         .nth(1)
@@ -24,10 +25,10 @@ fn main() {
     //println!("I have many {}", arg);
 
     // 3. Write a function "eat" that consumes arg and returns a bool
-    //    indicating whether or not arg contains an "a" AND starts with a "b".
+    //    indicating whether or not arg both starts with a "b" AND contains an "a".
     //    Then uncomment and run this code.
-    //    Hint 1: use arg.contains("a")
-    //    Hint 2: && is the boolean AND operator
+    //    Hint 1: use arg.starts_with("b") and arg.contains("a")
+    //    Hint 2: && is the boolean "AND" operator
     //
     //if eat(arg) {
     //    println!("Might be bananas");
@@ -35,5 +36,5 @@ fn main() {
     //    println!("Not bananas");
     //}
 
-    // Try running this program with "apple", "banana", and "grapes"  :-)
+    // Try running this program with "boat", "banana", and "grapes"  :-)
 }
