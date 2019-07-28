@@ -8,7 +8,10 @@ fn main() {
         // 1. Handle the command-line arguments!
         //    If arg is "sum", then call the sum() function
         //    If arg is "double", then call the double() function
-        //    If arg is anything else, then call the count() function
+        //    If arg is anything else, then call the count() function, passing "arg" to it.
+        //
+        // Try passing "sum", "double" and something else to the program by adding your argument
+        // after "cargo run".  For example "cargo run sum"
 
     }
 }
@@ -33,8 +36,8 @@ fn double() {
 }
 
 fn count(arg: String) {
-    // 4. Use an unconditional loop to print arg 8 times, and then break.  You
-    // will need to count your loops, somehow.
+    // Challenge: Use an unconditional loop to print arg 8 times, and then break.
+    // You will need to count your loops, somehow.
     //
     // print!("{} ", arg); // Execute this line 8 times, and then break.
 
