@@ -1,3 +1,4 @@
+#![allow(unused_variables)]
 fn main() {
     let width = 4;
     let height = 7;
@@ -15,7 +16,7 @@ fn main() {
 
     // 3. Uncomment the line below.  Make it work by creating a "volume"
     //    function that multiplies three arguments together and returns the
-    //    result.
+    //    result (which should be 280 when you run the program).
     //
     //println!("Volume is {}", volume(width, height, depth));
 }
