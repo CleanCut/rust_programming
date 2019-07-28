@@ -8,8 +8,8 @@
   - [ ] Change the version number to `2.3.4`, just for fun, and save the file.
     Keep an eye out for that version number in cargo's output when you run it!
 - [ ] In `src/main.rs`
-  - [ ] Bind the variable `missiles` and initialize it to `8`
-  - [ ] Bind the variable `ready` and initialize it to `2`
+  - [ ] Declare the variable `missiles` and initialize it to `8`
+  - [ ] Declare the variable `ready` and initialize it to `2`
 - [ ] Change the `println!(...)` at the end of `main()` to:
   - `println!("Firing {} of my {} missiles...", ready, missiles);`
 - [ ] Run your program using cargo (see "cargo help" if you forgot the command).
@@ -40,4 +40,4 @@
   - What does cargo say when you run your program?
 - [ ] Add another variable to your program *but don't use it*.
   - What does cargo say when you run your program?
-- [ ] Try modifying a constant. What does the error look like?
+- [ ] Try modifying a constant in `main()` (for example, `READY_AMOUNT = 1`). What does the error look like?
