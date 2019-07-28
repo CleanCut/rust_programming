@@ -37,4 +37,9 @@ fn main() {
     //}
 
     // Try running this program with "boat", "banana", and "grapes"  :-)
+
+    // Challenge: Write a function "add" that takes references to two integer
+    // arguments, dereferences them and adds them together, and returns the result.
+    //
+    // println!("1 + 2 = {}, even via references", add(&1, &2));
 }
