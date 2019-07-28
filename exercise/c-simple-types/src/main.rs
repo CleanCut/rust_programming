@@ -5,7 +5,7 @@ fn main() {
     // 1. Use print_difference() to show the difference between the two numbers
     // in coords.  Use tuple indexing. Hint: It's NOT square brackets.
     //
-    // print_difference("{}", ...)
+    // print_difference( ... )
 
 
     // 2. We want to use print_array() to print coords...but coords isn't an array!
