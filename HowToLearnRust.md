@@ -9,7 +9,7 @@ it is already getting really good.  Much more than just syntax highlighting, an 
 the compiler and show you type hints, compiler check errors, and all sorts of good stuff inline. 
 
 - Google the terms: `rust (name of the IDE or Editor you use)`
-  - Need a suggestion? IntelliJ, Visual Studio Code, and Atom are all great choices (and there are many more...)
+  - Need a suggestion? Visual Studio Code and IntelliJ are both great choices (and there are many more...)
   - Find the correct way to install Rust support for your IDE or Editor (it's often a plugin)
   - (Optional) Install TOML support, which is often separate from Rust support ([TOML](https://github.com/toml-lang/toml)
     is the config file format that Rust uses)
@@ -19,7 +19,7 @@ the compiler and show you type hints, compiler check errors, and all sorts of go
 
 ### Find Answers
 
-You are always going to have questions.  Know how to find the answers.
+You are always going to have questions.  Here is how you find the answers.
 
 - If it is about something the standard library, then Google: `rust std (thing you want to find)`
   - For example, can't quite remember what that method on `Vec` was? Google `rust std Vec`
@@ -85,7 +85,7 @@ found these books _especially_ useful and high quality:
 - [The Edition Guide](https://rust-lang-nursery.github.io/edition-guide/introduction.html) - Differences between Rust 2015 and Rust 2018
 - [String Formatting](https://doc.rust-lang.org/std/fmt/index.html) - `print!()`, `println!()`, `format!()`, etc. and
   how to deal with the format string.
-- [Firefox has over 1.8 million lines of Rust Code](https://4e6.github.io/firefox-lang-stats/)
+- [Firefox has about 1.5 million lines of Rust Code](https://www.openhub.net/p/firefox/analyses/latest/languages_summary)
   
 **More information about things we learned**
 - [Cargo](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html) and
