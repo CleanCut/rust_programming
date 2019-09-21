@@ -73,7 +73,7 @@ found these books _especially_ useful and high quality:
 - [The Rust Programming Language](https://doc.rust-lang.org/book/), aka "The Book" - the official free online book 
   about the language, though you can [purchase a physical copy](https://amzn.to/2Li5ymI) if you prefer.
 - [Programming Rust](https://amzn.to/2KC72XV) - The O'Reilly book by Jim Blandy and Jason Orendorff.  Fantastic book
-  focused on using the Rust language.  Much longer and more in depth than you can get elsewhere.
+  focused on using the Rust language, but it covers only the 2015 edition. Hopefully they release a 2nd edition in the future.
 
 **Informational**
 
