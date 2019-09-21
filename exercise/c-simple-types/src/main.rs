@@ -5,7 +5,7 @@ fn main() {
     // 1. Use print_difference() to show the difference between the two numbers
     // in coords.  Use tuple indexing. Hint: It's NOT square brackets.
     //
-    // print_difference( ... )
+    // print_difference( ... );
 
 
     // 2. We want to use print_array() to print coords...but coords isn't an array!
@@ -20,7 +20,7 @@ fn main() {
     // 3. Make the ding() function happy by passing it the value 13 out of the
     // series array.  Use array indexing.
     //
-    // ding(...)
+    // ding(...);
 
 
     let mess = ([3, 2], 3.14, [(false, -3), (true, -100)], 5, "candy");
