@@ -101,7 +101,7 @@ found these books _especially_ useful and high quality:
   Tuples, Arrays.
 - [Control Flow](https://doc.rust-lang.org/book/ch03-05-control-flow.html) - if, while, for
 - [Threads](https://doc.rust-lang.org/book/ch16-01-threads.html)
-  and [channels](https://doc.rust-lang.org/book/ch16-02-message-passing.html)
+  and [closures](https://doc.rust-lang.org/book/ch13-01-closures.html)
 - [Ownership and Scope](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html)
 - [References & Borrowing](https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html)
 - Common Collections: [Vectors](https://doc.rust-lang.org/book/ch08-01-vectors.html),
