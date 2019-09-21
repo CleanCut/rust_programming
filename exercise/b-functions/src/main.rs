@@ -1,4 +1,6 @@
+// Silence some warnings so they don't distract from the exercise.
 #![allow(unused_variables)]
+
 fn main() {
     let width = 4;
     let height = 7;

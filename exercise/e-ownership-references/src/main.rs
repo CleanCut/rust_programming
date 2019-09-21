@@ -1,4 +1,6 @@
+// Silence some warnings so they don't distract from the exercise.
 #![allow(unused_mut)]
+
 fn main() {
     // This fancy stuff either gets the first argument as a String, or prints
     // usage and exits if an argument was not supplied to the program.

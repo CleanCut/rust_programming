@@ -1,3 +1,4 @@
+// Silence some warnings so they don't distract from the exercise.
 #![allow(dead_code, unused_variables)]
 
 fn main() {
