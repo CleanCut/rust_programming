@@ -1,7 +1,7 @@
 # Rust Programming: A Crash Course
 
-Just watching the training will be entertaining and informative, but you will truly learn a lot more if you actually
-dig in and do some coding!  This repository is for you hands-on-learners who are ready to roll.
+Watching is fun, but you will learn a lot more if you dig in and do some coding!
+This repository is for you hands-on-learners who are ready to roll.
 
 I use macOS, and that is what I developed this course on.  Everything _ought_ to work similarly on major Linux
 distributions and Windows. Please do the following preparation _before_ the training so you can focus your time on
@@ -12,7 +12,7 @@ learning Rust.  Please [contact me](mailto:nathan.stocks@gmail.com) ASAP if you 
 
 ## Install Rust
 
-Rust 1.32.0 or newer is required for this course!  The latest stable version is recommended (1.36.0 at the time this was written).
+Rust 1.32.0 or newer is required for this course!  The latest stable version is recommended (1.37.0 at the time this was written).
 
 - Go to [rust-lang.org](https://rust-lang.org) and click on the `Get Started`
    button and follow the instructions to install Rust for your operating system.
@@ -22,17 +22,17 @@ You should get somewhat similar output if you run commands like the ones below (
 
 ```shell
 $ rustc --version
-rustc 1.36.0 (a53f9df32 2019-07-03)
+rustc 1.37.0 (eae3437df 2019-08-13)
 
 $ cargo --version
-cargo 1.36.0 (c4fcfb725 2019-05-15)
+cargo 1.37.0 (9edd08916 2019-08-02)
 ```
 
 - Clone or download this repository to the computer you will be using during the live training.
 
 ## Prepare to Learn
 
-Please do the following (see the [How To Learn Rust](https://github.com/CleanCut/rust_a_crash_course/blob/master/HowToLearnRust.md)
+Please do the following (see the [How To Learn Rust](https://github.com/CleanCut/rust_programming/blob/master/HowToLearnRust.md)
 page for details on all of these)
 - [ ] Choose an IDE (or Editor) and configure it with Rust support and customize it to your liking
 - [ ] Choose one place to "find answers" and either introduce yourself (if it's a forum, IRC, etc.) or find the answer
