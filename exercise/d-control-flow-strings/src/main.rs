@@ -1,7 +1,6 @@
 // Silence some warnings so they don't distract from the exercise.
 #![allow(dead_code, unused_mut, unused_variables)]
 
-
 fn main() {
     let args: Vec<String> = std::env::args().skip(1).collect();
     for arg in args {
