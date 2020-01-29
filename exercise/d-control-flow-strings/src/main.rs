@@ -11,7 +11,13 @@ fn main() {
         //
         // Try passing "sum", "double" and something else to the program by adding your argument
         // after "cargo run".  For example "cargo run sum"
-
+        if arg == "sum".to_string() {
+            sum();
+        } else if arg == "double".to_string() {
+            double();
+        } else {
+            count(arg);
+        }
     }
 }
 
@@ -19,7 +25,9 @@ fn sum() {
     let mut sum = 0;
     // 2. Use a "for loop" to iterate through integers from 7 to 23 *inclusive*
     // and add them all together (find the sum).  Hint: You should get 255
-
+    for i in 7..=23 {
+        sum += i;
+    }
 
     println!("The sum is {}", sum);
 }
@@ -29,6 +37,10 @@ fn double() {
     let mut x = 1;
     // 3. Use a "while loop" to count how many times you can double the value of
     // x (multiply x by 2) before it is larger than 500.  Hint: (it is 9 times)
+    while x <= 500 {
+        count += 1;
+        x *= 2;
+    }
 
 
     println!("You can double x {} times before it is larger than 500", count);
