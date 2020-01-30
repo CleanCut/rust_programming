@@ -38,6 +38,16 @@ fn main() {
 
         // **OPTION**
         // Brighten -- see the brighten() function below
+        "brighten" => {
+            if args.len() != 3 {
+                print_usage_and_exit();
+            }
+            let amount: i32 = args.pop().unwrap().parse().expect("Failed to parse brightness");
+            let outfile = args.pop().unwrap();
+            let infile = args.pop().unwrap();
+
+            brighten(infile, outfile, amount);
+        },
 
         // **OPTION**
         // Crop -- see the crop() function below
@@ -53,6 +63,13 @@ fn main() {
 
         // **OPTION**
         // Generate -- see the generate() function below
+        "generate" => {
+            if args.len() != 1 {
+                print_usage_and_exit();
+            }
+            let outfile = args.remove(0);
+            generate(outfile);
+        }
 
         // ANOTHER EXAMPLE...a really fun one. :-)
         "fractal" => {
@@ -89,6 +106,9 @@ fn main() {
 fn print_usage_and_exit() {
     println!("USAGE (when in doubt, use a .png extension on your filenames)");
     println!("blur INFILE OUTFILE");
+    println!("brighten INFILE OUTFILE AMOUNT");
+    println!("generate OUTFILE");
+    println!("fractal OUTFILE");
     // **OPTION**
     // Print useful information about what subcommands and arguments you can use
     // println!("...");
@@ -106,14 +126,17 @@ fn blur(infile: String, outfile: String) {
     img2.save(outfile).expect("Failed writing OUTFILE.");
 }
 
-fn brighten(infile: String, outfile: String) {
+fn brighten(infile: String, outfile: String, amount: i32) {
     // See blur() for an example of how to open / save an image.
+    let img = image::open(infile).unwrap();
 
     // .brighten() takes one argument, an i32.  Positive numbers brighten the
     // image. Negative numbers darken it.  It returns a new image.
+    let img2 = img.brighten(amount);
 
     // Challenge: parse the brightness amount from the command-line and pass it
     // through to this function.
+    img2.save(outfile).unwrap();
 }
 
 fn crop(infile: String, outfile: String) {
@@ -175,6 +198,20 @@ fn generate(outfile: String) {
     // Challenge 2: Generate something more interesting!
 
     // See blur() for an example of how to save the image
+
+    let width = 800;
+    let height = 800;
+
+    let mut imgbuf = image::ImageBuffer::new(width, height);
+
+    // Iterate over the coordinates and pixels of the image
+    for (x, y, pixel) in imgbuf.enumerate_pixels_mut() {
+        // Use red and blue to be a pretty gradient background
+        // Actually set the pixel. red, green, and blue are u8 values!
+        *pixel = image::Rgb([255, 0, 0]);
+    }
+
+    imgbuf.save(outfile).unwrap();
 }
 
 // This code was adapted from https://github.com/PistonDevelopers/image
