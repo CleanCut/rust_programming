@@ -1,7 +1,0 @@
-[package]
-name = "e-ownership-references"
-version = "0.1.0"
-authors = ["Nathan Stocks <nathan.stocks@gmail.com>"]
-edition = "2018"
-
-[dependencies]
